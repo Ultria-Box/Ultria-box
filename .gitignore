@@ -1,0 +1,26 @@
+# Secrets - NEVER commit these
+builder_config.json
+builder_secrets.json
+src/config.h
+*.key
+*.pem
+
+# Generated build files
+config.mk
+src/bind_resource.rc
+
+# Build artifacts
+build/
+dist/
+*.o
+*.a
+*.exe
+*.dll
+
+# Logs and scratch
+*.log
+__pycache__/
+*.pyc
+
+# Wine / reports
+reports/

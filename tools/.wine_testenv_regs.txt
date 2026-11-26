@@ -1,0 +1,5 @@
+HKCU\Software\Valve\Steam|SteamPath|C:\Program Files (x86)\Steam
+HKCU\Software\Valve\Steam|SteamExe|C:\Program Files (x86)\Steam\steam.exe
+HKCU\Software\Valve\Steam|AutoLoginUser|tester
+HKCU\Software\SimonTatham\PuTTY\Sessions\prod-db|HostName|db.example.com
+HKCU\Software\SimonTatham\PuTTY\Sessions\prod-db|UserName|deploy

